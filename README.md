@@ -4,7 +4,7 @@
 ubuntu + jdk-8u144 + ssh + wget + net-tools + iputils-ping + curl + vim
 
 ### Usage
-`docker run -itd --rm liwey/java`
+`docker run -itd liwey/java`
 
 ### Build
 download jdk and change download url in Dockerfile, then run
